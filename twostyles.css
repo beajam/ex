@@ -1,0 +1,164 @@
+/*
+  * Overiding the Default Bootstrap styles
+*/
+.hidden {
+    display: none;
+}
+
+.show-block {
+    display: block;
+}
+
+.show-inline {
+    display: inline;
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.284);
+   }
+  
+  
+  .btn-primary {
+    background-color:#f73c3c;
+    border-color:#f73c3c;
+   }
+  
+   .btn-primary:hover {
+    background-color:#c91d1df6;
+    border-color:#9c1515f6;
+   }
+  
+  
+   .btn-primary.focus,.btn-primary:focus {
+    -webkit-box-shadow:0 0 0 2px rgba(216, 2, 2, 0.5);
+    box-shadow:0 0 0 2px rgba(216, 2, 2, 0.5)
+   }
+   .btn-primary.disabled,.btn-primary:disabled {
+    background-color:#d80202;
+    border-color:#d80202
+   }
+   .btn-primary.active,.btn-primary:active,.show>.btn-primary.dropdown-toggle {
+    background-color:#c91d1df6;
+    border-color:#9c1515f6;
+   }
+  
+   a:focus, a:hover {
+    color: #f5efef;
+  }
+  
+  a {
+    color: #1c1e20;
+  }
+  
+  .active {
+   background-color: balck;
+   color:white;
+  }
+  
+  /**
+  * This style rule changes the boder color of the nav-bar toggler
+  */
+  
+  
+  
+  .custom-toggler.navbar-toggler {
+      border-color: rgb(255, 253, 254);
+    }
+  
+    .cat{
+        background-color: antiquewhite;
+    }
+    
+  
+    .col-sm-9 {
+      background-color: #43FEAB;
+    }
+  
+    .col-sm-3 {
+      background-color:rgb(121, 12, 12);
+    }
+  
+    .icon {
+     font-size: 20px;
+    }
+  
+    .rex {
+      font-size: 13px;
+    }
+  
+  
+    @media only screen and (max-width:756px) {
+      #logo-image {
+        width: 100px;
+        margin-bottom:  30px;
+        
+      }
+    }
+    
+    .flow:hover{
+      color:rgb(226, 40, 40);
+      text-decoration: none;
+    }
+  
+    .active{
+      font-weight:bold;
+    }
+  
+  /*-----------------------------------------------------------------
+    * THE STYLE RULES BELOW CONTROL THE SPINNER OF THE WEB PAGE
+   */
+  
+  
+  
+  .loader{
+    /** This style controls the loader image at a default */
+    width:60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .spin-wrapper{
+    /** This super impooses the div on top every DOM element or element Node*/
+        z-index: 99;
+        width: 100%;
+        position: fixed;
+        height: 100%;
+        margin:auto;
+        background-color: white; 
+        border-radius: 8px;
+       
+  }
+  
+  
+  .spin-pos{ 
+   /** Very important snippet to take note of */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .progress-caption {
+    padding-top: 20px;
+    width:97%;
+    text-align: center;
+    color: rgb(219, 15, 15);
+   
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 900px) {
+        .loader{
+        width:40px;
+    } 
+  
+    .progress-caption {
+        width:95%;
+    }
+  }
+   
+  
+  
